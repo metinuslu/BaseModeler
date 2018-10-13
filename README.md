@@ -71,7 +71,7 @@ Add to Box-Whisker Plot Graf
 
 **Outlier and Extreme Values**
 
-k: 1.5 # Outlier Values
+k: 1.5 # Outlier Values  
 k: 3   # Extreme Values
 
 **Formula**
@@ -79,12 +79,13 @@ k: 3   # Extreme Values
 Q1 - k x IQR(data) OR Q1 - k x (Q3-Q1)<br>
 Q3 + k x IQR(data) OR Q3 + k x (Q3-Q1)<br>
 
-**Outlier Values**
+**Outlier Values**  
 
 Q1 - 1.5 x IQR(data) OR Q1 - 1.5 x (Q3-Q1)<br>
 Q3 + 1.5 x IQR(data) OR Q3 + 1.5 x (Q3-Q1)<br>
 
-**Extreme Values**
+**Extreme Values**  
+
 Q1 - 3 x IQR(data) OR Q1 - 3 x (Q3-Q1)<br>
 Q3 + 3 x IQR(data) OR Q3 + 3 x (Q3-Q1)<br>
 
@@ -105,9 +106,9 @@ Extreme Down Value Compute Formula		: Q1 - 3xIQR(data) OR Q1 - 3x(Q3-Q1)<br>
 Extreme Up Value Compute Formula		: Q3 + 3xIQR(data) OR Q3 + 3x(Q3-Q1)<br>
 Extreme Down & Up Value				: -5 & 9 
 
-Output File : H:/Google Drive/Books/Analysis/BaseModeler/output//Data1_OutlierValues1_1517917363.csv 
+Output File : H:/Google Drive/Books/Analysis/BaseModeler/output//Data1_OutlierValues1_1517917363.csv   
 Output File : H:/Google Drive/Books/Analysis/BaseModeler/output//Data1_ExtOutlierValues2_1517917363.csv
 
 ## 6- Modified Thompson Tau
-**Source:** [StatisticsHowTo](http://www.statisticshowto.com/modified-thompson-tau-test/)
-- Output File : H:/Google Drive/Books/Analysis/BaseModeler/output/Data2_ModifiedThompsonTauTest_OutlierValues1_1517917447.csv
+**Source:** [StatisticsHowTo](http://www.statisticshowto.com/modified-thompson-tau-test/)  
+Output File : H:/Google Drive/Books/Analysis/BaseModeler/output/Data2_ModifiedThompsonTauTest_OutlierValues1_1517917447.csv
